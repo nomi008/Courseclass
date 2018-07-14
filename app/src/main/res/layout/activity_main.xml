@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/A1"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/A2"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="136dp"
+        android:text="Button"/>
+
+    <requestFocus
+        layout_alignParentBottom="true"
+        layout_alignParentStart="true"
+        layout_alignTop="@+id/button"
+        layout_marginBottom="0dp"
+        layout_marginStart="0dp"
+        layout_toStartOf="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <requestFocus
+        layout_alignParentBottom="true"
+        layout_alignParentStart="true"
+        layout_marginBottom="61dp"
+        layout_marginStart="62dp"
+        android:layout_width="70dp"
+        android:layout_height="50dp"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="23dp"/>
+</RelativeLayout>
